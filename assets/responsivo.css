@@ -1,0 +1,11 @@
+@media (max-width:430px) {
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    li{
+        width: 80%;
+    }
+    
+}
