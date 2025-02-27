@@ -1,11 +1,24 @@
 @media (max-width:430px) {
-    ul{
+    .input-area input {
+        width: 235px;
+        height: 35px;
+    }
+    .input-area input::placeholder{
+        font-size: 12px;
+    }
+    .input-area .input-area-button {
+        width: 75px;
+        height: 35px;
+        font-size: 12px;
+    }
+    ul {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    li{
+
+    li {
         width: 80%;
     }
-    
+
 }
